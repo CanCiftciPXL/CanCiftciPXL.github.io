@@ -1,0 +1,243 @@
+/*naam: Ciftci Can 1TINE */
+
+/*
+    blauw   0090e3
+    oranje  orange
+    geel    f0d10a
+    wit     white
+*/
+
+body {
+    margin: 0;
+    font-family: serif;
+    font-size: 16pt;
+    color: black;
+}
+
+body, header, main, article, nav, section, div {
+    box-sizing: border-box;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    height: 120px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+main {
+    margin-top: 120px;
+    margin-bottom: 20px;
+    width: 1200px;
+    margin-left: auto; 
+    margin-right: auto;
+}
+
+h1 {
+    float: left;
+    padding-left: 40px;
+    font-size: 28pt;
+    color: white;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #0090e3;
+}
+
+.highlight_titel {
+    background-color: #0090e3;
+    padding: 5px;
+    border: 1px white solid;
+    border-radius: 40px;
+}
+
+.highlight_winkel {
+    display: inline-block;
+    border: 1px white solid;
+    background-color: #0090e3;
+    padding: 5px;
+    border-radius: 4px;
+}
+
+ul {
+    float: right;
+    display: flex;
+    padding-right: 20px;
+    list-style: none;
+    align-items: center;
+}
+
+ul li {
+    margin-right: 20px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 20pt;
+}
+
+.lego article {
+    padding-top: 0;
+    width: 14%;
+    margin: 1%;
+    border: 2px dotted #f0d10a;
+    border-radius: 0.5rem;
+    padding: 4px;
+}
+figure {
+    position: relative;
+    margin: 0;
+}
+.lego img {
+    width: 100%;    
+}
+
+.lego .heart {
+    width: 25px;
+    padding: 5px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+}
+
+article {
+    margin: 1%;
+    width: 23%;
+    float: left;
+}
+
+article img {
+    width: 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.blackfriday {
+    padding-top: 10px;
+    width: 100%;
+}
+
+.blackfridayy {
+    width: 100%;
+    margin: 0;
+}
+
+.winkelwagentje {
+    height: 30px;
+    width: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+
+    nav {
+        display: inline-block;
+        position: fixed;
+        text-align: center;
+        width: 100%;
+        height: auto;
+        padding: 10px 0;
+    }
+
+    ul li:hover {
+        background-color: #f0d10a;
+        padding: 15px;
+    }
+
+    nav h1 {
+        float: none;
+        padding-bottom: 15px;
+    }
+
+    nav ul {
+        float: none;
+        display: block;
+        padding: 0;
+        margin: 10px 0;
+    }
+
+    nav li {
+        display: block;
+        margin: 40px 0;
+    }
+
+    nav a {
+        color: white;
+        font-size: 20pt;
+        text-decoration: none;
+        transition: color 0.3s;
+    }
+
+    .blackfriday {
+        display: none;
+    }
+
+    nav img {
+        display: none;
+    }
+
+    nav span {
+        display: inline;
+    }
+
+    main {
+        width: 100%;
+        padding-top: 35%;
+        text-align: center;
+    }
+
+    article {
+        width: 48%;
+        margin: 1%;
+    }
+
+    article img {
+        margin-bottom: 10px;
+    }
+
+    .winkelwagentje, .highlight_winkel {
+        display: none;
+    }
+
+    .hide {
+        display: list-item;
+    }
+
+    .heart {
+        display: none;
+    }
+
+    .lego {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        width: 100%;
+        padding-top: 50%;
+    }
+    article {
+        width: 100%;
+    }
+}
+

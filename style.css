@@ -1,0 +1,9 @@
+* {
+    font-size: 36pt;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    height: 90vh;
+}

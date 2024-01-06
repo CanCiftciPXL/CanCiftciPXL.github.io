@@ -1,0 +1,43 @@
+/*naam:  Ciftci Can 1TINE
+*/
+
+/*
+    blauw   0090e3
+    geel    f3f5cb
+    wit     white
+*/
+
+table, td, th {
+    border: 1px solid black;
+}
+
+td, th {
+    padding: 8px 24px;
+}
+
+thead th {
+    background-color: #0090e3;
+    text-align: center;
+    color: white;
+    font-size: 20pt;
+    font-family: serif;
+    font-style: italic;
+}
+
+tbody td {
+    text-align: right;
+    font-size: 18pt;
+    font-family: monospace;
+}
+
+td[rowspan] {
+    background-color: #f3f5cb;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f3f5cb;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: white;
+}

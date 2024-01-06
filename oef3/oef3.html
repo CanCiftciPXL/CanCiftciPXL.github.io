@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- naam: Ciftci Can 1TINE -->
+
+<head>
+    <meta charset="UTF-8">
+    <title>Oef3</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/oef3/assets/css/oef3.css">
+</head>
+
+<body>
+    <h1>Bedankt voor je bestelling</h1>
+    <form action="bestel.html">
+        <div class="row">
+            <div class="element w3">
+                <label>Lego trein</label>
+            </div>
+            <div class="element w5">
+                <img src="assets/images/train1.jpg" alt="train1">
+            </div>
+            <div class="element w4">
+                <label for="aantal_train1">aantal</label>
+                <select name="aantal_train1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="element w3">
+                <label>Lego set</label>
+            </div>
+            <div class="element w5">
+                <img src="assets/images/lego1.jpg" alt="lego1">
+            </div>
+            <div class="element w4">
+                <label for="aantal_lego1">aantal</label>
+                <select name="aantal_lego1">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="element w3">
+                <label>Betalingswijze</label>
+            </div>
+            <div class="element w9">
+                <input type="radio" name="betaalwijze" value="visa">
+                <img class="betaaloptie w2" src="assets/images/visa.png" alt="visa">
+                <input type="radio" name="betaalwijze" value="mastercard">
+                <img class="betaaloptie w2" src="assets/images/mastercard.png" alt="mastercard">
+                <input type="radio" name="betaalwijze" value="overschrijving">
+                overschrijving
+            </div>
+        </div>
+        <div class="row">
+            <div class="element w12">
+                <label>Opmerkingen</label>
+            </div>
+            <div class="element w12">
+                <textarea class="w12" name="opmerkingen" id="opmerkingen" rows="10"></textarea>
+            </div>
+        </div>
+        <div class="row">
+            <div class="element w2">
+                <label>Straat</label>
+            </div>
+            <div class="element w6">
+                <input class="w12" type="text" name="straat" id="straat">
+            </div>
+            <div class="element w2">
+                <label>Nummer</label>
+            </div>
+            <div class="element w2">
+                <input class="w12" type="text" name="huisnr" id="huisnr">
+            </div>
+        </div>
+        <div class="row">
+            <div class="element w12">
+                <button class="w12">Bestellen</button>
+            </div>
+        </div>
+    </form>
+</body>
+</html>
